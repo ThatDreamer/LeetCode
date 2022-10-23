@@ -12,6 +12,8 @@ import java.util.HashMap;
  *      0 <= s.length <= 5 * 104
  *      s 由英文字母、数字、符号和空格组成
  * 思路：滑动窗口+HashMap
+ *      1.用hashmap计数，移动右指针直至窗口内当前字符的个数不为0，更新res，移动左指针；
+ *      2.可以优化一下，hashmap记录字符出现的下标，首先当前字符是否在窗口内，在的话就移动左指针到hashmap记录的下标+1，移动右指针++，更新hashmap记录的下标，和res
  * @author: scott
  * @date: 2022年10月23日 12:01
  */
