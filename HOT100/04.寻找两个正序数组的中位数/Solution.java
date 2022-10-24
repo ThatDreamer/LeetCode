@@ -1,3 +1,10 @@
+/**
+ * 功能描述
+ * LeetCodeHOT100：4.寻找两个正序数组的中位数
+ * 解法1：用双指针合并数组，然后返回中位数，时间复杂度为O(m+n)
+ * @author: scott
+ * @date: 2022年10月24日 10:01
+ */
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
