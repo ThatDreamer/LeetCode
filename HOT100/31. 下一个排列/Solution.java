@@ -1,7 +1,7 @@
 /**
  * 功能描述
  * LeetCodeHOT100：31.下一个排列
- * 解法：贪心，时间复杂度为O(n^2)
+ * 解法：遍历，时间复杂度为O(n^2)
  */
 class Solution {
     public void nextPermutation(int[] nums) {
