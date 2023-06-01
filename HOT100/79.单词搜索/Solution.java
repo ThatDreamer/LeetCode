@@ -1,6 +1,6 @@
 /**
  * 功能描述
- * LeetCodeHOT100：78.单词搜索
+ * LeetCodeHOT100：79.单词搜索
  * 解法：回溯+剪枝
  */
 class Solution {
